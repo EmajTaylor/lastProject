@@ -1,0 +1,126 @@
+#popup-overlay {
+  display: none;
+  /*set this to "flex" when you are developing this section*/
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.586);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 6px;
+  color: white;
+  text-size-adjust: 37px 266px 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  padding: 6px;
+  padding-top: 50px;
+  color: rgb(0, 0, 0);
+  text-size-adjust: 37px 266px 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-title {
+  font-weight: bold;
+  background-image: linear-gradient(to right, #04548c, #0474c460);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  width: 302px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 20px 20px 20px 20px;
+  box-shadow: 4px 8px 8px rgb(0, 0, 0, 0.25);
+  border: solid 0.1px #0474c4;
+}
+
+body {
+  background-color: #dadada;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.card-image {
+  position: relative;
+}
+
+#cd-img-1 {
+  width: 300px;
+  height: 200px;
+}
+
+#cd-img-2 {
+  width: 300px;
+  height: 200px;
+}
+
+#cd-img-3 {
+  width: 300px;
+  height: 200px;
+}
+
+.action-button,
+.action-button-2,
+.action-button-3 {
+  width: 120px;
+  margin: 25px;
+  padding: 8px 6px;
+  background-color: #1eaeff;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 3px;
+  border: transparent;
+}
+
+.card-content {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+.content {
+  /* margin: 50px auto; */
+  /* max-width: 1040px; */
+  display: flex;
+}
+
+.popup-content {
+  display: none;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  padding: 20;
+  background-color: white;
+  position: relative;
+}
+
+.close-button {
+  font-size: larger;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  padding: 10px;
+}
+
+.button-content {
+  padding: 20px 70px;
+}
