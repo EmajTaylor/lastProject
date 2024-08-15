@@ -1,0 +1,73 @@
+#sec2,
+#sec3,
+#sec4,
+#sec5 {
+  padding-top: 70px;
+}
+
+.active {
+  background-color: rgb(180, 180, 180);
+  color: black;
+}
+.nav-bar li {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: larger;
+  font-family: fantasy;
+}
+
+.nav-bar a:hover {
+  background-color: grey;
+}
+
+nav {
+  background-color: rgb(78, 0, 0);
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  margin-top: 70px;
+  background-color: rgb(32, 30, 27);
+}
+a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+li::before,
+li::after {
+  content: " | ";
+  color: white;
+}
+
+h1,
+h2 {
+  font-family: "Playwrite CU", cursive;
+  color: rgb(146, 19, 19);
+  letter-spacing: 1px;
+  text-shadow: rgb(78, 0, 0) 1px 0 10px;
+}
+h1 {
+  text-align: center;
+  text-decoration: overline underline;
+  letter-spacing: 1px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+  margin-left: 15px;
+  color: beige;
+  margin-bottom: 15px;
+}
