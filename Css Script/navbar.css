@@ -5,6 +5,8 @@ body {
   margin: 0;
 
   box-sizing: border-box;
+
+ max-width: 1440px, !important;
 }
 
 nav {
@@ -20,30 +22,31 @@ nav {
 
 .navigation-header {
   background-image: linear-gradient(to right, #04548c, #0474c460);
-  /* background-color: black; *
+  / background-color: black; *
 
-  height: 60px;
+  /* height: 60px;
 
   display: flex;
 
   justify-content: center;
 
-  align-items: center;
+  align-items: center; */
 }
 
 .logo-container {
+  
 }
 
-.logo-container-2 a {
-  /* display: inline;
+/* .logo-container-2 a {
+  display: inline;
   font-style: italic;
   color: ghostwhite;
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   text-align: center;
-  margin: auto; */
-}
+  margin: auto;
+} */
 .nav-container {
   margin: auto;
   display: flex;
@@ -67,7 +70,7 @@ nav {
 }
 #nav-logo {
   height: 35px;
-  shadow: 0 0 10px #fff;
+  /* shadow: 0 0 10px #fff; */
 }
 
 .navigation-items {

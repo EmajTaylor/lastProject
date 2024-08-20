@@ -4,6 +4,10 @@
   font-size: 20px;
 }
 
+/* body {
+  max-width: 1200px;
+} */
+
 :root {
   --primary-color: #7cc44c;
   --secondary-color: #0474c4;
@@ -12,7 +16,7 @@
   --accent-color-3: rgb(194, 194, 194);
 }
 .section {
-  max-width: 1500px;
+  max-width: 1200px;
   padding: 20px;
   margin: auto;
 }
@@ -76,7 +80,16 @@ marquee {
     } */
 }
 @media (max-width: 768px) {
+<<<<<<< Updated upstream
   .section {
     display: grid;
   }
 }
+=======
+.section {
+display: grid;
+/* grid-template-columns: ; */
+}
+
+}
+>>>>>>> Stashed changes
