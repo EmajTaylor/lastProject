@@ -4,32 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introductions</title>
+    <link rel="stylesheet" href="./Css Script/navbar.css" />
+    <link rel="stylesheet" href="./Css Script/BasicCSSFile.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="card">
-      <img
-        class="profile-image"
-        src="./Photos/Daniels-Photo.jpg"
-        alt="Daniels-Photo"
-      />
-      <h1>Daniel Johnson</h1>
-      <p class="title">Intern For SNAP IT</p>
-      <p>SNAP IT</p>
-      <a class="action-button" href="https://profile.indeed.com/p/danielj-3xqgrs8">Resume</a>
-    </div>
+    <header class="navigation-header">
+      <div class="nav-container section">
+        <div class="logo-container-2">
+          <img
+            src="./Photos\SnapIT_SymbolOnly_Gradient_1.webp"
+            alt="snapit"
+            id="nav-logo"
+          />
+          <a id="text-logo" href="#">SnapIT</a>
+        </div>
 
-    <div class="card">
-      <img
-        class="profile-image2"
-        src="./Photos/Emaj's-Photo.jpeg"
-        alt="Emaj's-Photo"
-      />
-      <h1>Emaj Taylor</h1>
-      <p class="title">Intern for SnapIT</p>
-      <p>SNAP IT</p>
-    
-      <a class="action-button" href="https://profile.indeed.com/p/emajt-wkua0v7">Resume</a>
+        <nav>
+          <div class="navigation-items">
+            <a class="panel" href="./Website Pages/BasicMainPage.html">Home Page</a>
+            <a class="panel" href="./Website Pages/jobDescription.html">Summary</a>
+            <a class="panel" href="./Website Pages/Examples.html">Examples</a>
+            <a class="panel" target="_blank" href="#">Introductions</a>
+            <a class="panel" href="https://snapit.solutions/">Apply Today!</a>
+          </div>
+          <div class="hamburger"><span id="openHam">&#9776;</span></div>
+        </nav>
+      </div>
+      
+    </header>
+    <div class="profiles">
+      <div class="card">
+        <img
+          class="profile-image"
+          src="./Photos/Daniels-Photo.jpg"
+          alt="Daniels-Photo"
+        />
+        <h1>Daniel Johnson</h1>
+        <p class="title">Intern For SNAP IT</p>
+        <a
+          class="action-button"
+          href="https://profile.indeed.com/p/danielj-3xqgrs8"
+          >Resume</a
+        >
+      </div>
+
+      <div class="card">
+        <img
+          class="profile-image2"
+          src="./Photos/Emaj's-Photo.jpeg"
+          alt="Emaj's-Photo"
+        />
+        <h1>Emaj Taylor</h1>
+        <p class="title">Intern for SnapIT</p>
+
+        <a
+          class="action-button"
+          href="https://profile.indeed.com/p/emajt-wkua0v7"
+          >Resume</a
+        >
+      </div>
     </div>
   </body>
 </html>

@@ -23,10 +23,22 @@ body {
   background-blend-mode: multiply;
   background-color: rgba(75, 74, 74, 0.863);
 }
-.paragraph {
+.c-paragraph {
+  margin: 0px 40px;
   /* display: flex; */
   /* font-weight: bolder; */
 }
+
+.c-paragraph p {
+  padding: 12px;
+  /* display: flex; */
+  /* font-weight: bolder; */
+}
+
+.c-paragraph li {
+margin: 0 80px;
+}
+
 .introduction {
   text-decoration: none;
   font-weight: bolder;

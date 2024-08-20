@@ -3,16 +3,16 @@
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-  height: 100%;
+  width: 180px;
+  height: 180px;
 }
 .profile-image2 {
   display: block;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   object-fit: cover;
   object-position: 0% 20%;
 }
@@ -20,10 +20,12 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
-  margin: 100px;
+  min-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  display: inline-block;
-  width: 200px;
+  padding: 50px;
+  width: 90%;
 }
 
 .title {
@@ -34,7 +36,6 @@
 .action-button {
   border: none;
   outline: 0;
-  display: inline-block;
   padding: 8px;
   color: white;
   background-color: #000;
@@ -55,12 +56,14 @@ a:hover {
   opacity: 0.7;
 }
 
-body {
+.profiles {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  padding: 20px;
   /* margin: 100px; */
   margin: auto;
+  flex-wrap: wrap;
+
   /* padding: 100x; */
   /* display: grid;
 place-content: center; */
