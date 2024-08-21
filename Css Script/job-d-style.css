@@ -17,6 +17,7 @@ body {
   background-position: fixed;
   background-size: cover;
   color: white;
+
 }
 
 .background-tint {
@@ -25,18 +26,22 @@ body {
 }
 .c-paragraph {
   margin: 0px 40px;
+background-color: rgba(255, 255, 255, 0.178);
   /* display: flex; */
   /* font-weight: bolder; */
 }
 
 .c-paragraph p {
   padding: 12px;
+  max-width: 1200px;
+ 
   /* display: flex; */
   /* font-weight: bolder; */
 }
 
 .c-paragraph li {
   margin: 0 80px;
+  padding: 5px 0px;
 }
 
 .introduction {
@@ -70,6 +75,15 @@ body {
 }
 
 aside {
+
+}
+.summary-photos {
+margin: 20px;
+width: 500px;
+height: 300px;
+object-fit: cover;
+
+
 }
 
 p {
@@ -216,6 +230,17 @@ Style the back side */
   text-transform: uppercase;
   text-decoration: solid;
   margin: auto;
+}
+
+ul {
+  padding: 20px 0 ;
+}
+
+h1 {
+  margin: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: larger;
 }
 
 /* @media {
