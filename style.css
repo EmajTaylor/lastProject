@@ -34,6 +34,8 @@
 }
 
 .action-button {
+  display: block;
+  margin-top: 10px;
   border: none;
   outline: 0;
   padding: 8px;
@@ -67,4 +69,8 @@ a:hover {
   /* padding: 100x; */
   /* display: grid;
 place-content: center; */
+}
+.dj1{
+  text-align: center;
+  font-size: 10;
 }
