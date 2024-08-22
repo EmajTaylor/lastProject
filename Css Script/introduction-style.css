@@ -26,7 +26,8 @@ body {
 .intro-card {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.39);
   max-width: 300px;
-  min-width: 200px;
+  min-width: 270px;
+  width: 70%;
   height: 500px;
   margin: auto;
   text-align: center;
@@ -83,6 +84,7 @@ a:hover {
   max-width: 1000px;
   padding: 60px 20px;
   margin: auto;
+  gap: 30px;
   flex-wrap: wrap;
   /* margin: 100px; */
   /* padding: 100x; */

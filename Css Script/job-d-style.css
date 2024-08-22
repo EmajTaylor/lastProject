@@ -17,7 +17,6 @@ body {
   background-position: fixed;
   background-size: cover;
   color: white;
-
 }
 
 .background-tint {
@@ -26,15 +25,17 @@ body {
 }
 .c-paragraph {
   margin: 0px 40px;
-background-color: rgba(255, 255, 255, 0.178);
+  background-color: rgba(255, 255, 255, 0.178);
   /* display: flex; */
   /* font-weight: bolder; */
+  max-width: 1200px;
+  margin: auto;
 }
 
 .c-paragraph p {
   padding: 12px;
   max-width: 1200px;
- 
+
   /* display: flex; */
   /* font-weight: bolder; */
 }
@@ -75,15 +76,13 @@ background-color: rgba(255, 255, 255, 0.178);
 }
 
 aside {
-
 }
 .summary-photos {
-margin: 20px;
-width: 500px;
-height: 300px;
-object-fit: cover;
-
-
+  margin: auto;
+  display: block;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
 }
 
 p {
@@ -233,7 +232,7 @@ Style the back side */
 }
 
 ul {
-  padding: 20px 0 ;
+  padding: 20px 0;
 }
 
 h1 {

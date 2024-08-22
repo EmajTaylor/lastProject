@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  margin: auto;
   /* max-width: 1200px; */
 }
 
@@ -40,6 +41,10 @@ marquee {
   white-space: nowrap;
   padding: 0 0.25em;
   text-shadow: 20px 0px 55px black;
+}
+.container {
+  margin: auto;
+  max-width: 1440px !important;
 }
 .landing-page-banner {
   background-image: url("../Photos/alvaro-reyes-qWwpHwip31M-unsplash.jpg");
