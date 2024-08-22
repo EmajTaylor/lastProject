@@ -1,5 +1,5 @@
 body {
- background-color: rgb(194, 194, 194);
+  background-color: rgb(194, 194, 194);
 }
 
 .profile-image {
@@ -23,18 +23,16 @@ body {
   border: 5px solid #0474c4;
 }
 
-.card {
+.intro-card {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.39);
   max-width: 300px;
   min-width: 200px;
   height: 500px;
-margin: auto;
+  margin: auto;
   text-align: center;
   padding: 50px;
-  width: 100%;
   border: solid 0.1px #0474c4;
   background-color: white;
-
 }
 
 /* .card-bg {
@@ -82,7 +80,8 @@ a:hover {
 .profiles {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  max-width: 1000px;
+  padding: 60px 20px;
   margin: auto;
   flex-wrap: wrap;
   /* margin: 100px; */

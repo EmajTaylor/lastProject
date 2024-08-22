@@ -62,16 +62,8 @@ body {
   position: relative;
 }
 
-#cd-img-1 {
-  width: 300px;
-  height: 200px;
-}
-
-#cd-img-2 {
-  width: 300px;
-  height: 200px;
-}
-
+#cd-img-1,
+#cd-img-2,
 #cd-img-3 {
   width: 300px;
   height: 200px;
@@ -105,11 +97,13 @@ body {
 .popup-content {
   display: none;
   width: 600px;
-  height: 300px;
+  height: 350px;
   text-align: center;
-  padding: 20;
+  padding: 0px;
   background-color: white;
   position: relative;
+  border: 2px solid #0474c4;
+  box-shadow: 0 0 20px 2px;
 }
 
 .close-button {

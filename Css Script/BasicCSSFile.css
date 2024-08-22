@@ -41,24 +41,43 @@ marquee {
   padding: 0 0.25em;
   text-shadow: 20px 0px 55px black;
 }
-
 .landing-page-banner {
-  margin: 20px 50px 0 50px;
+  background-image: url("../Photos/alvaro-reyes-qWwpHwip31M-unsplash.jpg");
+}
+
+.container-with-grid {
+  height: 40vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  background-image: url("../Photos/grid-png-hd-5.png");
+  /* margin: 20px 50px 0 50px;
   border-radius: 25px 25px 25px 25px;
   background-image: radial-gradient(#7cc44c, #0474c4);
   /* background-image:  */
-  box-shadow: 0px 0px 20px 10px #0474c4b0;
+  /* box-shadow: 0px 0px 20px 10px #0474c4b0; */
   /* border: #6cacdd00; */
-  animation: landing-page-banner 100s infinite;
+  /* animation: landing-page-banner 100s infinite; */
 }
 
 @keyframes landing-page-banner {
-  0% {background-image:radial-gradient(#7cc44c, #0474c400);}
-  25% {background: #0474c4;}
-  50% {background: #7cc44c;}
-  75% {background: #0474c4;}
-  100% {background-image:radial-gradient(#7cc44c, #0474c400);}
-
+  0% {
+    background-image: radial-gradient(#7cc44c, #0474c400);
+  }
+  25% {
+    background: #0474c4;
+  }
+  50% {
+    background: #7cc44c;
+  }
+  75% {
+    background: #0474c4;
+  }
+  100% {
+    background-image: radial-gradient(#7cc44c, #0474c400);
+  }
 }
 
 .wrap-text {
@@ -93,17 +112,32 @@ marquee {
        transform: translateX(-100%);
     } */
 }
-@media (max-width: 768px) {
-<<<<<<< Updated upstream
+/* @media (max-width: 768px) {
   .section {
     display: grid;
   }
-}
-=======
-.section {
-display: grid;
-/* grid-template-columns: ; */
-}
+} */
 
+@media (max-width: 550px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+
+  .card {
+    width: 90% !important;
+  }
+  #cd-img-1,
+  #cd-img-2,
+  #cd-img-3 {
+    width: 100% !important;
+    height: auto !important;
+  }
+  #full-logo {
+    padding: 0;
+  }
 }
->>>>>>> Stashed changes

@@ -6,7 +6,7 @@ body {
 
   box-sizing: border-box;
 
- max-width: 1440px, !important;
+  max-width: 1440px !important;
 }
 
 nav {
@@ -17,12 +17,16 @@ nav {
   justify-content: flex-end;
 
   align-items: center;
-  position: relative;
 }
 
 .navigation-header {
   background-image: linear-gradient(to right, #04548c, #0474c460);
-  / background-color: black; *
+  background-color: black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 
   /* height: 60px;
 
@@ -33,9 +37,9 @@ nav {
   align-items: center; */
 }
 
-.logo-container {
+/* .logo-container {
   
-}
+} */
 
 /* .logo-container-2 a {
   display: inline;
@@ -64,7 +68,9 @@ nav {
   /* margin: auto; */
   /* justify-content: left; */
 }
-
+.current {
+  color: gold !important;
+}
 .panel {
   font-weight: bold;
 }
@@ -76,7 +82,6 @@ nav {
 .navigation-items {
   display: flex;
   gap: 40px;
-  
 }
 
 .navigation-items a {
@@ -123,7 +128,6 @@ nav {
   .navigation-items a {
     padding: 10px 30px;
     background-image: linear-gradient(to right, #0474c4, #6cacdd);
-
   }
   .hamburger:hover {
     color: gold;

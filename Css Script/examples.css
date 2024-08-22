@@ -3,7 +3,7 @@
   height: 200px;
   display: flex;
   object-fit: cover;
-  filter: blur(2px) brightness(0.80);
+  filter: blur(2px) brightness(0.8);
   margin: 20px;
   border: 2px solid black;
   /* background-color: rgba(0, 0, 0, 0.63); */
@@ -11,19 +11,20 @@
 }
 
 .Ex1-p:hover {
-    width: 250px;
-    height: 250px;
-    transition-duration: 150ms;
-    transition-property: all;
-    transition-timing-function:ease-in-out;
-    cursor:pointer;
+  width: 250px;
+  height: 250px;
+  transition-duration: 150ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
 }
-.ex-link:hover, .ex-link-github:hover {
-    border: 2px solid black;
-    padding: 10px;
-    transition-duration: 150ms;
-    transition-property: all;
-    transition-timing-function:ease-in-out;
+.ex-link:hover,
+.ex-link-github:hover {
+  border: 2px solid black;
+  padding: 10px;
+  transition-duration: 150ms;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
 }
 .ex-link {
   display: inline;
@@ -45,7 +46,7 @@
 }
 .grouped-examples {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(100px, auto);
   max-width: 700px;
   justify-content: space-between;
@@ -55,23 +56,35 @@ border-radius: 5px;
 box-shadow: 0 0 10px #1eaeff; */
 }
 
-
-
 .titles {
   text-align: center;
   padding: 5px;
   margin: 10px;
   font-weight: bold;
   color: white;
- 
+
   background: linear-gradient(to right, #04548c, #0474c460);
 }
 
 @media (max-width: 768px) {
-.grouped-examples {
+  .grouped-examples {
     /* overflow: ; */
-    grid-template-columns: repeat (1, 1fr);
-    grid-template-rows: repeat (3, 1fr);
-}
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    /* text-align: center;
+    margin: auto;
+   vertical-align: middle; */
 
+    /* max-width: 400px; */
+  }
+  .Ex1-p {
+    /* text-align: center; */
+    margin: auto;
+    vertical-align: middle;
+  }
+  .ex-link, .ex-link-github {
+    margin: auto;
+    /* text-align: center; */
+    /* vertical-align: middle; */
+  }
 }
